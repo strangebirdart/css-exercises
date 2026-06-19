@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.First {
+    background-color: black;
+    color: white;
+}
+
+.Second {
+    background-color: yellow;
+     
+}
+
+.First,
+.Second {
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+    font-size: 28px;
+}
