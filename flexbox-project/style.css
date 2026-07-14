@@ -125,5 +125,16 @@ h2 {
     background-color: #3882F6;
     color: #E5E7EB; 
     border-radius: 8px;
+    margin: 50px;
+    padding: 50px;
 }
 
+button[type="button-2"] {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    align-self: flex-start;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
+}
