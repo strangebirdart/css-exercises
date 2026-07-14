@@ -1,4 +1,6 @@
-@import url('https://googleapis.com');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 body {
     display: flex;
@@ -33,7 +35,8 @@ body {
 
 .subhead {
     display: flex;
-    align-content: flex-start;
+    justify-content: space-between;
+    gap: 25px;
     padding: 10px 75px 10px;
     margin: 0px;
     background-color: #1F2937; 
@@ -43,7 +46,7 @@ body {
 .title, h1, p {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex: 1 1 0;
     margin: 0;
 }
 
@@ -60,5 +63,13 @@ button[type="button-1"] {
     border-radius: 8px;
     padding: 6px 24px;
     font-weight: bold;
+}
 
+.image-box {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
