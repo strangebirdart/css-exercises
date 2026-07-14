@@ -2,7 +2,6 @@
 
 body {
     display: flex;
-    flex: 1;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -34,7 +33,7 @@ body {
 
 .subhead {
     display: flex;
-    flex: 1;
+    align-content: flex-start;
     padding: 10px 75px 10px;
     margin: 0px;
     background-color: #1F2937; 
@@ -44,13 +43,22 @@ body {
 .title, h1, p {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
 }
 
 h1 {
     font-size: 48px;
-    font-weight: 900px;
+    weight: 900; 
 }
 
-#button-1 {
+button[type="button-1"] {
     background-color: #3882F6;
+    color: #E5E7EB;
+    align-self: flex-start;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 24px;
+    font-weight: bold;
+
 }
