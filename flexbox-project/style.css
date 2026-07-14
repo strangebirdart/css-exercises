@@ -78,6 +78,25 @@ button[type="button-1"] {
     flex: 1;
 }
 
-.box {
+h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+    color: #1F2937;
 
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.box {
+    border: 1px solid #3882F6;
+    background-color: #E5E7EB;
+    border-radius: 8px;
+    border-width: 8px;
+    height: 100px;
+    width: 100;
 }
