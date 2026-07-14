@@ -2,6 +2,7 @@
 
 body {
     display: flex;
+    flex: 1;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -11,20 +12,45 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937; 
-    
+    padding: 10px 75px 10px;
+    margin: 0px;
 }
 
 .logo {
-    font-size: 24 px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: bold; 
     color: #F9FAF8;
     display: flex;
 }
 
 .header-links, a {
     display: flex;
+    align-content: center;
     gap: 18px;
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.subhead {
+    display: flex;
+    flex: 1;
+    padding: 10px 75px 10px;
+    margin: 0px;
+    background-color: #1F2937; 
+    color: #E5E7EB;
+}
+
+.title, h1, p {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+#button-1 {
+    background-color: #3882F6;
 }
