@@ -69,11 +69,15 @@ button[type="button-1"] {
     font-weight: bold;
 }
 
-.image-box {
+.image {
     background-color: gray;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+}
+
+.box {
+
 }
