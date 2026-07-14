@@ -8,6 +8,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937; 
     padding: 10px 100px 10px;
     margin: 0px;
