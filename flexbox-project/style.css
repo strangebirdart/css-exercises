@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    max-width: 1400px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .top {
@@ -91,7 +94,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    padding: 10px 100px;
+    padding: 10px 150px;
     margin-bottom: 100px;
 }
 
@@ -117,16 +120,18 @@ h2 {
     flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px; 
-    padding: 100px 100px;
+    padding: 100px 150px;
 }
 
 .action {
     display: flex;
     background-color: #3882F6;
+    justify-content: space-between;
+    flex: 1;
     color: #E5E7EB; 
     border-radius: 8px;
     margin: 50px;
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 button[type="button-2"] {
@@ -137,4 +142,11 @@ button[type="button-2"] {
     border-radius: 8px;
     padding: 6px 24px;
     font-weight: bold;
+}
+
+.footer {
+    color:#E5E7EB; 
+    background-color:#1F2937;
+    text-align: center;
+    padding: 50px 0px
 }
