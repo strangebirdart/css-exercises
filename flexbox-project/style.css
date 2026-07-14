@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .top {
@@ -80,11 +81,10 @@ button[type="button-1"] {
 
 h2 {
     text-align: center;
-    padding: 25px;
+    padding: 50px 25px 100 100;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-
 }
 
 .info {
@@ -92,19 +92,38 @@ h2 {
     justify-content: space-between;
     gap: 16px;
     padding: 10px 100px;
+    margin-bottom: 100px;
 }
 
 .box {
-    border: .5px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 8px;
     border-width: 8px;
     height: 200px;
     width: 200;
+    margin-bottom: 5px;
 }
 
 .section {
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    text-align: center;
     flex: 0 0 200px; 
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px; 
+    padding: 100px 100px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB; 
+    border-radius: 8px;
+}
+
