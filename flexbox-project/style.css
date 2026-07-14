@@ -1,0 +1,30 @@
+@import url('https://googleapis.com');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937; 
+    
+}
+
+.logo {
+    font-size: 24 px;
+    font-weight: bold;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.header-links, a {
+    display: flex;
+    gap: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
